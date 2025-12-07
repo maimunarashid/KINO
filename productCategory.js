@@ -18,7 +18,7 @@ productCategories.appendChild(categoryHeading);
 
 categories.forEach(category =>{
     const categoryContent = document.createElement("div");
-    categoryContent.innerHTML = `<button class="hover:bg-[#FF69B4] hover:text-white p-2 rounded-lg w-full text-left">${category.category_name}</button>`;
+    categoryContent.innerHTML = `<button id="category-based-product-${category.id}" onclick="loadCategoryBasedProduct(${category.id})" class="hover:bg-[#FF69B4] hover:text-white p-2 rounded-lg w-full text-left">${category.category_name}</button>`;
 
     productCategories.appendChild(categoryContent);
 })
@@ -61,3 +61,8 @@ loadAllMakeupProducts();
 
 
 // category based products
+const loadCategoryBasedProduct = (id)=>{
+    const url = `allProducts.json`
+fetch()
+
+}
