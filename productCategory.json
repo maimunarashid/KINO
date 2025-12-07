@@ -1,0 +1,26 @@
+{
+"status": true,
+"message": "successfully fetched categories data",
+"categories": [
+{
+"id": 1,
+"category_name": "Eyes"
+},
+{
+"id": 2,
+"category_name": "Face"
+},
+{
+"id": 3,
+"category_name": "Lips Care"
+},
+{
+"id": 4,
+"category_name": "Nails"
+},
+{
+"id": 5,
+"category_name": "Tools & Brushes"
+}
+]
+}
