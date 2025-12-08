@@ -11,14 +11,14 @@ productCategories.innerHTML = "";
 
 // Category Heading create
 const categoryHeading = document.createElement("h1");
-categoryHeading.innerText = "Product Categories";
-categoryHeading.classList.add("text-2xl", "font-bold", "mb-2", "text-[#FF69B4]");
+categoryHeading.innerText = "Makeup Products";
+categoryHeading.classList.add("text-2xl", "font-bold", "mb-2", "ml-2", "text-[#FF69B4]");
 productCategories.appendChild(categoryHeading);
 
 
 categories.forEach(category =>{
     const categoryContent = document.createElement("div");
-    categoryContent.innerHTML = `<button id="category-based-product-${category.id}" onclick="loadCategoryBasedProduct(${category.id})" class="hover:bg-[#FF69B4] hover:text-white p-2 rounded-lg w-full text-left">${category.category_name}</button>`;
+    categoryContent.innerHTML = `<button id="category-based-product-${category.id}" onclick="loadCategoryBasedProduct(${category.id})" class="hover:bg-[#FF69B4] hover:text-white pt-2 pb-4 mb-2 ml-2  rounded-lg w-[120px] text-left">${category.category_name}</button>`;
 
     productCategories.appendChild(categoryContent);
 })
