@@ -1,8 +1,8 @@
 {
-"status": true,
-"message": "successfully fetched all categories data",
-"allMakeupProducts": [
-{
+  "status": true,
+  "message": "successfully fetched all categories data",
+  "allMakeupProducts": [
+    {
 "id": 1,
 "image": "https://i.ibb.co.com/XZsN29kH/Swiss-Beauty-Ultimate-Eyeshadow-Palette-05.webp",
 "name": "Swiss Beauty Ultimate Eyeshadow Palette - 05",
@@ -11,7 +11,7 @@
 "subcategory_name": "Eyeshadow",
 "price": 499.00
 },
-{
+    {
 "id": 2,
 "image": "https://i.ibb.co.com/qM3mVb1h/NIRVANA-Color-Eye-and-Face-Palette-SANJHBELA.webp",
 "name": "NIRVANA Color Eye and Face Palette SANJHBELA",
@@ -19,8 +19,8 @@
 "category_name": "Eyes",
 "subcategory_name": "Eyeshadow",
 "price": 599.00
-},
-{
+    },
+    {
 "id": 3,
 "image": "https://i.ibb.co.com/VWPPXjDL/Swiss-Beauty-36-Color-Eyeshadow-Palette-Shade-01.webp",
 "name": "Swiss Beauty 36 Color Eyeshadow Palette Shade 01",
@@ -28,8 +28,8 @@
 "category_name": "Eyes",
 "subcategory_name": "Eyeshadow",
 "price": 1499.00
-},
-{
+    },
+    {
 "id": 4,
 "image": "https://i.ibb.co.com/7JwbpqcN/Swiss-Beauty-Power-Stage-Eyeshadow-Palette-The-Mystic-Glam.webp",
 "name": "Swiss Beauty Power Stage Eyeshadow Palette - The Mystic Glam",
@@ -37,8 +37,8 @@
 "category_name": "Eyes",
 "subcategory_name": "Eyeshadow",
 "price": 1599.00
-},
-{
+    },
+    {
 "id": 5,
 "image": "https://i.ibb.co.com/TDVcN2xm/Swiss-Beauty-Ultimate-Eyeshadow-Palette-02.webp",
 "name": "Swiss Beauty Ultimate Eyeshadow Palette - 02",
@@ -46,120 +46,8 @@
 "category_name": "Eyes",
 "subcategory_name": "Eyeshadow",
 "price": 499.00
-},
-{
-    "id": 6,
-    "image": "https://i.ibb.co.com/bM0Y4215/Nirvana-Color-Face-Perfect-Liquid-Foundation-Light-Honey-F04.webp",
-    "name": "Nirvana Color Face Perfect Liquid Foundation - Light Honey F04",
-    "description": "Nirvana Color features four new full coverage yet buildable foundations that give a flawless, long-lasting finish, cover up blemishes, and conceal imperfections and dark circles. These foundations are made to complement Bangladeshi skin tones.",
-    "category_name": "Face",
-    "price": 349.00
-  },
-  {
-    "id": 7,
-    "image": "https://i.ibb.co.com/pB4tcLrY/Farmasi-Soft-Focus-BB-Powder-02-Medium.jpg",
-    "name": "Farmasi Soft Focus BB Powder 02 Medium",
-    "description": "BB All-in One compact powder is a light and soft powder which gives the skin soft look by naturally covering imperfections. Apply over a BB cream for buildable coverage or alone for a matte finish.",
-    "category_name": "Face",
-    "price": 1200.00
-  },
-  {
-    "id": 8,
-    "image": "https://i.ibb.co.com/6cTMVk2h/L-A-Girl-Pro-BB-Cream-GBB942-Light.jpg",
-    "name": "L.A. Girl Pro BB Cream GBB942 Light",
-    "description": "HD PRO BB Cream is formulated without parabens and made fragrance-free to pamper sensitive skin and lavishly nourish skin with added Vitamin B3, C and E. The silky formula covers a wide range of skin tones with eight diverse shades. This is your all-in-one skin beautifier that primes, moisturizes and enhances skin tone.",
-    "category_name": "Face",
-    "price": 550.00
-  },
-  {
-    "id": 9,
-    "image": "https://i.ibb.co.com/b5PQ3gjZ/Benefit-Hoola-Matte-Bronzer-Hoola-Light.avif",
-    "name": "Benefit Hoola Matte Bronzer Hoola Light",
-    "description": "Benefit’s award-winning Hoola bronzer is now available in 4 SUNsational shades. All shades feature the same soft, blendable formula and matte finish that made original Hoola a cult-favorite. The entire Hoola bronzer collection ranges from light to deep so you can sweep on a natural-looking bronze. Comes complete with a built-in mirror and powder brush for a sunless & seamless application. ",
-    "category_name": "Face",
-    "price": 4200.00
-  },
-  {
-    "id": 10,
-    "image": "https://i.ibb.co.com/TMZr8zLk/Wazih-Organic-Lavender-Essential-Oil.jpg",
-    "name": "Wazih Organic Lavender Essential Oil",
-    "description": "Lavender Essential Oil Lavender essential oil is a type of essential oil. Lavender is a very popular and popular flower name from which this essential oil is obtained. Its soft fragrance takes away everyone's mind. There is no pair of lavender oil for soft fragrance, moisturizing skin and keeping hair beautiful.",
-    "category_name": "Face",
-    "price": 248.00
-  },
-{
-"id": 11,
-"image": "https://i.ibb.co.com/V0zYWbq0/Nirvana-Color-Matte-Bullet-Lipstick-Bride-Red-B06.jpg",
-"name": "Nirvana Color Matte Bullet Lipstick - Bride Red B06",
-"description": "Nirvana Color features six new highly pigmented, creamy matte lipsticks. The rich formula applies to the lips very smoothly and does not make your lips heavy. These colors are perfect as your everyday shade and give your persona an attractive touch.",
-"category_name": "Lips Care",
-"price": 149.00
-},
-{
-"id": 12,
-"image": "https://i.ibb.co.com/tp06KyB5/Swiss-Beauty-Pure-Matte-Lipstick-Raspberry-207.webp",
-"name": "Swiss Beauty Pure Matte Lipstick-Raspberry - 207",
-"description": "Whether you're rocking a bold red or a subtle nude, Swiss Beauty Pure Matte Lipstick delivers intense pigmentation, glides effortlessly delivering a soft matte finish. Available in 30 captivating shades, from bold and vibrant to subtle and neutral, there's a perfect hue for every mood and occasion.",
-"category_name": "Lips Care",
-"price": 330.00
-},
-{
-"id": 13,
-"image": "https://i.ibb.co.com/gb8htZX3/Swiss-Beauty-MATTE-CAT-LIP-CRAYON-Shade-01.webp",
-"name": "Swiss Beauty MATTE CAT LIP CRAYON - Shade 01",
-"description": "It Stays: Non-transfer and water-resistant formula ensures that the color stays put all day long. This Lip Crayon has a Retractable design eliminates the need for sharpening, making it easy to use and mess-free. The Lightweight formula of our Matte Lip Crayon lasts up to 8 hours and is comfortable on the lips.",
-"category_name": "Lips Care",
-"price": 2000
-},
-{
-"id": 14,
-"image": "https://i.ibb.co.com/kzV6ch8/Nirvana-Color-Nail-Enamel-Cherry-Picked-14.jpg",
-"name": "Nirvana Color Nail Enamel - Cherry Picked-14",
-"description": "Nirvana Color features a bunch of colorful nail enamels, starting from neutrals, pastels to brights, and shimmers. Paint your nails the way you fancy with the opaque shades and decorate them with the glittery polish.",
-"category_name": "Nails",
-"price": 204.00
-},
-{
-"id": 15,
-"image": "https://i.ibb.co.com/2Gh1SK0/Nirvana-Color-Nail-Enamel-Femme-Fatale-36-1-1.jpg",
-"name": "Nirvana Color Nail Enamel - Olive You - 34",
-"description": "Nirvana Color features a bunch of colorful nail enamels, starting from neutrals, pastels to brights, and shimmers. Paint your nails the way you fancy with the opaque shades and decorate them with the glittery polishes. Vibran",
-"category_name": "Nails",
-"price": 208.00
-},
-{
-"id": 16,
-"image": "https://i.ibb.co.com/jP8jgrHj/Nirvana-Color-Nail-Enamel-Dazzling-41.jpg",
-"name": "Nirvana Color Nail Enamel - Dazzling - 41",
-"description": "Nirvana Color features a bunch of colorful nail enamels, starting from neutrals, pastels to brights, and shimmers. Paint your nails the way you fancy with the opaque shades and decorate them with the glittery polish.",
-"category_name": "Nails",
-"price": 187.00
-},
-{
-"id": 17,
-"image": "https://i.ibb.co.com/VcsXLjmD/Fix-Beauty-Makeup-Brush-Set.jpg",
-"name": "Fix+ Beauty Makeup Brush Set",
-"description": "Beauty Fix+ Professional Makeup Brush Kit is a 13-piece set designed to elevate your makeup application to a professional level. This comprehensive kit includes a versatile array of brushes, carefully crafted to cater to all your makeup needs.",
-"category_name": "Tools & Brushes",
-"price": 475.00
-},
-{
-"id": 18,
-"image": "https://i.ibb.co.com/TBvc4DnG/makeup-pouch.webp",
-"name": "Makeup Pouches",
-"description": "Large Capacity: A makeup storage bag with a large capacity can be a great highlight. This will allow customers to store and organize all their makeup and toiletries in one place.",
-"category_name": "Tools & Brushes",
-"price": 184.00
-},
-{
-"id": 19,
-"image": "https://i.ibb.co.com/fYy5RvKk/Garnier-Skin-Active-Micellar-Clear-Water.jpg",
-"name": "Garnier Skin Active Micellar Clear Water",
-"description": "This cleanser is surprisingly powerful yet gentle to skin. It is specially formulated to effectively cleanse, remove makeup, and refresh skin. Like a magnet, micelles capture and lift away dirt, oil and makeup without harsh rubbing, leaving skin perfectly clean, and refreshed without over-drying.",
-"category_name": "Face",
-"price": 800
-},
-{
+    },
+    {
 "id": 20,
 "image": "https://i.ibb.co.com/RGHd4L4n/Revlon-Photo-Ready-Eye-Primer-Brightener-003-Medium.jpg",
 "name": "Revlon PhotoReady Eye Primer + Brightener - 003 Medium",
@@ -167,16 +55,8 @@
 "category_name": "Eyes",
 "subcategory_name": "Eyeliner",
 "price": 1300.00
-},
-{
-"id": 21,
-"image": "https://i.ibb.co.com/21nf2dC1/Swiss-Beauty-Select-High-on-Blush-01-Pretty-Peach.webp",
-"name": "Swiss Beauty Select High on Blush - 01 Pretty Peach",
-"description": "The Swiss Beauty Select High on Blush has a natural matte finish that emulates the texture and appearance of your skin.",
-"category_name": "Face",
-"price": 649.00
-},
-    {
+    },
+        {
       "id": 22,
       "image": "https://i.ibb.co.com/hJKd15Zp/Maybelline-Lash-Sensational-Mascara.jpg",
       "name": "Maybelline Lash Sensational Mascara",
@@ -313,6 +193,5 @@
       "subcategory_name": "Eyeliner",
       "price": 2000.00
     }
-    ]
+  ]
 }
-

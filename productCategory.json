@@ -1,26 +1,55 @@
 {
-"status": true,
-"message": "successfully fetched categories data",
-"categories": [
-{
-"id": 1,
-"category_name": "Eyes"
-},
-{
-"id": 2,
-"category_name": "Face"
-},
-{
-"id": 3,
-"category_name": "Lips Care"
-},
-{
-"id": 4,
-"category_name": "Nails"
-},
-{
-"id": 5,
-"category_name": "Tools & Brushes"
-}
-]
+  "status": true,
+  "message": "successfully fetched categories data",
+  "categories": [
+    {
+      "id": 1,
+      "category_name": "Eyes",
+      "subcategories": [
+        { "id": 101, "name": "Eyelash" },
+        { "id": 102, "name": "Eyebrow" },
+        { "id": 103, "name": "Eyeliner" },
+        { "id": 104, "name": "Eyeshadow" }
+      ]
+    },
+    {
+      "id": 2,
+      "category_name": "Face",
+      "subcategories": [
+        { "id": 201, "name": "Foundation" },
+        { "id": 202, "name": "Concealer" },
+        { "id": 203, "name": "Blush" },
+        { "id": 204, "name": "Highlighter" }
+      ]
+    },
+    {
+      "id": 3,
+      "category_name": "Lips Care",
+      "subcategories": [
+        { "id": 301, "name": "Lipstick" },
+        { "id": 302, "name": "Lip Gloss" },
+        { "id": 303, "name": "Lip Balm" },
+        { "id": 304, "name": "Lip Liner" }
+      ]
+    },
+    {
+      "id": 4,
+      "category_name": "Nails",
+      "subcategories": [
+        { "id": 401, "name": "Nail Polish" },
+        { "id": 402, "name": "Nail Art" },
+        { "id": 403, "name": "Nail Care" }
+      ]
+    },
+    {
+      "id": 5,
+      "category_name": "Tools & Brushes",
+      "subcategories": [
+        { "id": 501, "name": "Makeup Brushes" },
+        { "id": 502, "name": "Sponges" },
+        { "id": 503, "name": "Tweezers" },
+        { "id": 504, "name": "Eyelash Curler" }
+      ]
+    }
+  ]
 }

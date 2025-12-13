@@ -12,13 +12,13 @@ productCategories.innerHTML = "";
 // Category Heading create
 const categoryHeading = document.createElement("h1");
 categoryHeading.innerText = "Makeup Products";
-categoryHeading.classList.add("text-2xl", "font-bold", "mb-2", "ml-2", "text-[#FF69B4]");
+categoryHeading.classList.add("text-2xl", "font-bold", "mb-2", "ml-2", "text-[#E2725B]");
 productCategories.appendChild(categoryHeading);
 
 
 categories.forEach(category =>{
     const categoryContent = document.createElement("div");
-    categoryContent.innerHTML = `<button id="category-based-product-${category.id}" onclick="loadCategoryBasedProduct(${category.id})" class="hover:bg-[#FF69B4] hover:text-white pt-2 pb-4 mb-2 ml-2  rounded-lg w-[120px] text-left">${category.category_name}</button>`;
+    categoryContent.innerHTML = `<button id="category-based-product-${category.id}" onclick="loadCategoryBasedProduct(${category.id})" class="hover:bg-[#E2725B] hover:text-white pt-2 pb-4 mb-2 ml-2  rounded-lg w-[120px] text-left">${category.category_name}</button>`;
 
     productCategories.appendChild(categoryContent);
 })
@@ -40,16 +40,23 @@ const displayAllMakeupProducts = (allProducts)=>{
 const allMakeupProducts = document.getElementById("allMakeup-products");
 allMakeupProducts.innerHTML = "";
 
+
 allProducts.forEach(product =>{
     const productCard = document.createElement("div");
     productCard.innerHTML = `<div class="card bg-base-100 w-96 shadow-lg flex flex-col flex-grow h-full min-h-[400px] justify-between transition-transform duration-300 ease-in-out hover:-translate-y-5 hover:shadow-lg">
     <img class="h-[260px] pl-5 pr-5 pt-5" src="${product.image}">
   <div class="card-body mb-[10px]">
     <h2 class="card-title">${product.name}</h2>
-    <p>${product.description}</p>
+    <p class="text-gray-400">${product.description}</p>
     <div class="flex justify-between">
     <button class="btn rounded-[10px]">৳${product.price}</button>
-      <button class="btn btn-secondary bg-[#FF69B4]">Add to Cart</button>
+
+<button class="btn btn-secondary bg-[#E2725B] group">
+  <span class="group-hover:hidden">Add to Cart</span>
+  <span class="hidden group-hover:block w-[74px]"><i class="fa-solid fa-cart-shopping"></i></span>
+</button>
+
+
     </div>
   </div>
 </div>`;
