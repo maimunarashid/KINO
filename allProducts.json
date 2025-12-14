@@ -1,93 +1,17 @@
 {
 "status": true,
-"message": "successfully fetched all categories data",
+"message": "successfully fetched",
 "allMakeupProducts": [
-{
-"id": 1,
-"image": "https://i.ibb.co.com/XZsN29kH/Swiss-Beauty-Ultimate-Eyeshadow-Palette-05.webp",
-"name": "Swiss Beauty Ultimate Eyeshadow Palette - 05",
-"description": "9-Colour Eyeshadow Palette: Swiss Beauty Ultimate Eyeshadow palette consists of highly pigmented shades in matte, shimmer, and metallic finishes for creating endless eye looks",
-"category_name": "Eyes",
-"subcategory_name": "Eyeshadow",
-"price": 499.00
-},
-{
-"id": 2,
-"image": "https://i.ibb.co.com/qM3mVb1h/NIRVANA-Color-Eye-and-Face-Palette-SANJHBELA.webp",
-"name": "NIRVANA Color Eye and Face Palette SANJHBELA",
-"description": "The Nirvana Color Smokey Eye and Face Palette is a must-have for creating gorgeous smokey eye looks. It includes 9 highly pigmented shades in matte, shimmery, and glittery finishes, as well as contour, blush and highlighter. The versatile color range and easy-to-blend formula make this palette ideal for any makeup lover.",
-"category_name": "Eyes",
-"subcategory_name": "Eyeshadow",
-"price": 599.00
-},
-{
-"id": 3,
-"image": "https://i.ibb.co.com/VWPPXjDL/Swiss-Beauty-36-Color-Eyeshadow-Palette-Shade-01.webp",
-"name": "Swiss Beauty 36 Color Eyeshadow Palette Shade 01",
-"description": "A large tropical tree that bears the world’s biggest fruit, the jackfruit. Its sweet and aromatic flesh is both nutritious and filling, and the tree itself provides generous shade.",
-"category_name": "Eyes",
-"subcategory_name": "Eyeshadow",
-"price": 1499.00
-},
-{
-"id": 4,
-"image": "https://i.ibb.co.com/7JwbpqcN/Swiss-Beauty-Power-Stage-Eyeshadow-Palette-The-Mystic-Glam.webp",
-"name": "Swiss Beauty Power Stage Eyeshadow Palette - The Mystic Glam",
-"description": "Known as the ‘Flame of the Forest’, this tree bursts into a vibrant display of red flowers every summer. Perfect for beautifying avenues and gardens.",
-"category_name": "Eyes",
-"subcategory_name": "Eyeshadow",
-"price": 1599.00
-},
-{
-"id": 5,
-"image": "https://i.ibb.co.com/TDVcN2xm/Swiss-Beauty-Ultimate-Eyeshadow-Palette-02.webp",
-"name": "Swiss Beauty Ultimate Eyeshadow Palette - 02",
-"description": "A fragrant flowering tree that adorns gardens with its delicate white blossoms. Widely cherished in traditional rituals and perfumery.",
-"category_name": "Eyes",
-"subcategory_name": "Eyeshadow",
-"price": 499.00
-},
-{
-    "id": 6,
-    "image": "https://i.ibb.co.com/bM0Y4215/Nirvana-Color-Face-Perfect-Liquid-Foundation-Light-Honey-F04.webp",
-    "name": "Nirvana Color Face Perfect Liquid Foundation - Light Honey F04",
-    "description": "Nirvana Color features four new full coverage yet buildable foundations that give a flawless, long-lasting finish, cover up blemishes, and conceal imperfections and dark circles. These foundations are made to complement Bangladeshi skin tones.",
-    "category_name": "Face",
-    "price": 349.00
-  },
-  {
-    "id": 7,
-    "image": "https://i.ibb.co.com/pB4tcLrY/Farmasi-Soft-Focus-BB-Powder-02-Medium.jpg",
-    "name": "Farmasi Soft Focus BB Powder 02 Medium",
-    "description": "BB All-in One compact powder is a light and soft powder which gives the skin soft look by naturally covering imperfections. Apply over a BB cream for buildable coverage or alone for a matte finish.",
-    "category_name": "Face",
-    "price": 1200.00
-  },
-  {
-    "id": 8,
-    "image": "https://i.ibb.co.com/6cTMVk2h/L-A-Girl-Pro-BB-Cream-GBB942-Light.jpg",
-    "name": "L.A. Girl Pro BB Cream GBB942 Light",
-    "description": "HD PRO BB Cream is formulated without parabens and made fragrance-free to pamper sensitive skin and lavishly nourish skin with added Vitamin B3, C and E. The silky formula covers a wide range of skin tones with eight diverse shades. This is your all-in-one skin beautifier that primes, moisturizes and enhances skin tone.",
-    "category_name": "Face",
-    "price": 550.00
-  },
-  {
-    "id": 9,
-    "image": "https://i.ibb.co.com/b5PQ3gjZ/Benefit-Hoola-Matte-Bronzer-Hoola-Light.avif",
-    "name": "Benefit Hoola Matte Bronzer Hoola Light",
-    "description": "Benefit’s award-winning Hoola bronzer is now available in 4 SUNsational shades. All shades feature the same soft, blendable formula and matte finish that made original Hoola a cult-favorite. The entire Hoola bronzer collection ranges from light to deep so you can sweep on a natural-looking bronze. Comes complete with a built-in mirror and powder brush for a sunless & seamless application. ",
-    "category_name": "Face",
-    "price": 4200.00
-  },
-  {
-    "id": 10,
-    "image": "https://i.ibb.co.com/TMZr8zLk/Wazih-Organic-Lavender-Essential-Oil.jpg",
-    "name": "Wazih Organic Lavender Essential Oil",
-    "description": "Lavender Essential Oil Lavender essential oil is a type of essential oil. Lavender is a very popular and popular flower name from which this essential oil is obtained. Its soft fragrance takes away everyone's mind. There is no pair of lavender oil for soft fragrance, moisturizing skin and keeping hair beautiful.",
-    "category_name": "Face",
-    "price": 248.00
-  },
-{
+      {
+      "id": 15,
+      "image": "https://i.ibb.co.com/xV66XgK/Fenty-Beauty-Killawatt-Highlighter.webp",
+      "name": "Fenty Beauty Killawatt Highlighter",
+      "description": "Cream-powder hybrid highlighter with intense shine.",
+      "category_name": "Face",
+      "subcategory_name": "Highlighter",
+      "price": 2800.00
+    },
+    {
 "id": 11,
 "image": "https://i.ibb.co.com/V0zYWbq0/Nirvana-Color-Matte-Bullet-Lipstick-Bride-Red-B06.jpg",
 "name": "Nirvana Color Matte Bullet Lipstick - Bride Red B06",
@@ -95,6 +19,24 @@
 "category_name": "Lips Care",
 "price": 149.00
 },
+    {
+      "id": 16,
+      "image": "https://i.ibb.co.com/ccyK4rCg/Maybelline-Master-Chrome-Highlighter.webp",
+      "name": "Maybelline Master Chrome Highlighter",
+      "description": "Affordable metallic highlighter with bold glow.",
+      "category_name": "Face",
+      "subcategory_name": "Highlighter",
+      "price": 950.00
+    },
+      {
+    "id": 115,
+    "image": "https://i.ibb.co.com/TMZr8zLk/Wazih-Organic-Lavender-Essential-Oil.jpg",
+    "name": "Wazih Organic Lavender Essential Oil",
+    "description": "Lavender Essential Oil Lavender essential oil is a type of essential oil. Lavender is a very popular and popular flower name from which this essential oil is obtained. Its soft fragrance takes away everyone's mind. There is no pair of lavender oil for soft fragrance, moisturizing skin and keeping hair beautiful.",
+    "category_name": "Face",
+    "price": 248.00
+  },
+
 {
 "id": 12,
 "image": "https://i.ibb.co.com/tp06KyB5/Swiss-Beauty-Pure-Matte-Lipstick-Raspberry-207.webp",
@@ -103,6 +45,84 @@
 "category_name": "Lips Care",
 "price": 330.00
 },
+{
+"id": 211,
+"image": "https://i.ibb.co.com/XZsN29kH/Swiss-Beauty-Ultimate-Eyeshadow-Palette-05.webp",
+"name": "Swiss Beauty Ultimate Eyeshadow Palette - 05",
+"description": "9-Colour Eyeshadow Palette: Swiss Beauty Ultimate Eyeshadow palette consists of highly pigmented shades in matte, shimmer, and metallic finishes for creating endless eye looks",
+"category_name": "Eyes",
+"subcategory_name": "Eyeshadow",
+"price": 499.00
+},
+{
+        "id": 212,
+      "image": "https://i.ibb.co.com/8gVGHJSs/Huda-Beauty-Life-Liner-Duo-Pencil-Liquid.jpg",
+      "name": "Huda Beauty Life Liner Duo Pencil & Liquid",
+      "description": "Dual-ended liner with both liquid and pencil for versatile eye looks.",
+      "category_name": "Eyes",
+      "subcategory_name": "Eyeliner",
+      "price": 2000.00
+},
+        {
+      "id": 213,
+      "image": "https://i.ibb.co.com/Q7X06sQD/Huda-Beauty-Legit-Lashes-Mascara.webp",
+      "name": "Huda Beauty Legit Lashes Mascara",
+      "description": "Dual-ended mascara for both volume and curl, perfect for bold eye looks.",
+      "category_name": "Eyes",
+      "subcategory_name": "Eyelash",
+      "price": 1800.00
+    },
+{
+"id": 214,
+"image": "https://i.ibb.co.com/7JwbpqcN/Swiss-Beauty-Power-Stage-Eyeshadow-Palette-The-Mystic-Glam.webp",
+"name": "Swiss Beauty Power Stage Eyeshadow Palette - The Mystic Glam",
+"description": "Known as the ‘Flame of the Forest’, this tree bursts into a vibrant display of red flowers every summer. Perfect for beautifying avenues and gardens.",
+"category_name": "Eyes",
+"subcategory_name": "Eyeshadow",
+"price": 1599.00
+},
+{
+"id": 215,
+"image": "https://i.ibb.co.com/TDVcN2xm/Swiss-Beauty-Ultimate-Eyeshadow-Palette-02.webp",
+"name": "Swiss Beauty Ultimate Eyeshadow Palette - 02",
+"description": "A fragrant flowering tree that adorns gardens with its delicate white blossoms. Widely cherished in traditional rituals and perfumery.",
+"category_name": "Eyes",
+"subcategory_name": "Eyeshadow",
+"price": 499.00
+},
+{
+    "id":111,
+    "image": "https://i.ibb.co.com/bM0Y4215/Nirvana-Color-Face-Perfect-Liquid-Foundation-Light-Honey-F04.webp",
+    "name": "Nirvana Color Face Perfect Liquid Foundation - Light Honey F04",
+    "description": "Nirvana Color features four new full coverage yet buildable foundations that give a flawless, long-lasting finish, cover up blemishes, and conceal imperfections and dark circles. These foundations are made to complement Bangladeshi skin tones.",
+    "category_name": "Face",
+    "price": 349.00
+  },
+  {
+    "id": 112,
+    "image": "https://i.ibb.co.com/pB4tcLrY/Farmasi-Soft-Focus-BB-Powder-02-Medium.jpg",
+    "name": "Farmasi Soft Focus BB Powder 02 Medium",
+    "description": "BB All-in One compact powder is a light and soft powder which gives the skin soft look by naturally covering imperfections. Apply over a BB cream for buildable coverage or alone for a matte finish.",
+    "category_name": "Face",
+    "price": 1200.00
+  },
+  {
+    "id": 113,
+    "image": "https://i.ibb.co.com/6cTMVk2h/L-A-Girl-Pro-BB-Cream-GBB942-Light.jpg",
+    "name": "L.A. Girl Pro BB Cream GBB942 Light",
+    "description": "HD PRO BB Cream is formulated without parabens and made fragrance-free to pamper sensitive skin and lavishly nourish skin with added Vitamin B3, C and E. The silky formula covers a wide range of skin tones with eight diverse shades. This is your all-in-one skin beautifier that primes, moisturizes and enhances skin tone.",
+    "category_name": "Face",
+    "price": 550.00
+  },
+  {
+    "id": 114,
+    "image": "https://i.ibb.co.com/b5PQ3gjZ/Benefit-Hoola-Matte-Bronzer-Hoola-Light.avif",
+    "name": "Benefit Hoola Matte Bronzer Hoola Light",
+    "description": "Benefit’s award-winning Hoola bronzer is now available in 4 SUNsational shades. All shades feature the same soft, blendable formula and matte finish that made original Hoola a cult-favorite. The entire Hoola bronzer collection ranges from light to deep so you can sweep on a natural-looking bronze. Comes complete with a built-in mirror and powder brush for a sunless & seamless application. ",
+    "category_name": "Face",
+    "price": 4200.00
+  },
+
 {
 "id": 13,
 "image": "https://i.ibb.co.com/gb8htZX3/Swiss-Beauty-MATTE-CAT-LIP-CRAYON-Shade-01.webp",
@@ -152,7 +172,7 @@
 "price": 184.00
 },
 {
-"id": 19,
+"id": 116,
 "image": "https://i.ibb.co.com/fYy5RvKk/Garnier-Skin-Active-Micellar-Clear-Water.jpg",
 "name": "Garnier Skin Active Micellar Clear Water",
 "description": "This cleanser is surprisingly powerful yet gentle to skin. It is specially formulated to effectively cleanse, remove makeup, and refresh skin. Like a magnet, micelles capture and lift away dirt, oil and makeup without harsh rubbing, leaving skin perfectly clean, and refreshed without over-drying.",
@@ -160,7 +180,7 @@
 "price": 800
 },
 {
-"id": 20,
+"id": 216,
 "image": "https://i.ibb.co.com/RGHd4L4n/Revlon-Photo-Ready-Eye-Primer-Brightener-003-Medium.jpg",
 "name": "Revlon PhotoReady Eye Primer + Brightener - 003 Medium",
 "description": "Our PhotoReady™ Eye Primer + Brightener reduces the appearance of lines and creases under eyes and can also be used anywhere on the face as a brightening “pick me up",
@@ -169,7 +189,7 @@
 "price": 1300.00
 },
 {
-"id": 21,
+"id": 127,
 "image": "https://i.ibb.co.com/21nf2dC1/Swiss-Beauty-Select-High-on-Blush-01-Pretty-Peach.webp",
 "name": "Swiss Beauty Select High on Blush - 01 Pretty Peach",
 "description": "The Swiss Beauty Select High on Blush has a natural matte finish that emulates the texture and appearance of your skin.",
@@ -177,7 +197,7 @@
 "price": 649.00
 },
     {
-      "id": 22,
+      "id": 217,
       "image": "https://i.ibb.co.com/hJKd15Zp/Maybelline-Lash-Sensational-Mascara.jpg",
       "name": "Maybelline Lash Sensational Mascara",
       "description": "Full fan effect mascara with layers of lashes revealed for a dramatic look.",
@@ -186,7 +206,7 @@
       "price": 750.00
     },
     {
-      "id": 23,
+      "id": 218,
       "image": "https://i.ibb.co.com/QFYVSWjB/L-Oreal-Voluminous-Original-Mascara.jpg",
       "name": "L’Oreal Voluminous Original Mascara",
       "description": "Builds lashes up to 5x their natural thickness for bold volume.",
@@ -195,7 +215,7 @@
       "price": 699.00
     },
     {
-      "id": 24,
+      "id": 219,
       "image": "https://i.ibb.co.com/hxSgYVpr/Benefit-They-re-Real-Mascara.webp",
       "name": "Benefit They’re Real! Mascara",
       "description": "Lengthens, curls, volumizes, lifts, and separates lashes for a dramatic finish.",
@@ -204,7 +224,7 @@
       "price": 1200.00
     },
     {
-      "id": 25,
+      "id": 220,
       "image": "https://i.ibb.co.com/1tJT84Nf/Essence-Lash-Princess-False-Lash-Effect-Mascara.jpg",
       "name": "Essence Lash Princess False Lash Effect Mascara",
       "description": "Affordable mascara with a false lash effect and long-lasting wear.",
@@ -213,17 +233,17 @@
       "price": 450.00
     },
     {
-      "id": 26,
-      "image": "https://i.ibb.co.com/Q7X06sQD/Huda-Beauty-Legit-Lashes-Mascara.webp",
-      "name": "Huda Beauty Legit Lashes Mascara",
-      "description": "Dual-ended mascara for both volume and curl, perfect for bold eye looks.",
-      "category_name": "Eyes",
-      "subcategory_name": "Eyelash",
-      "price": 1800.00
+"id": 221,
+"image": "https://i.ibb.co.com/VWPPXjDL/Swiss-Beauty-36-Color-Eyeshadow-Palette-Shade-01.webp",
+"name": "Swiss Beauty 36 Color Eyeshadow Palette Shade 01",
+"description": "A large tropical tree that bears the world’s biggest fruit, the jackfruit. Its sweet and aromatic flesh is both nutritious and filling, and the tree itself provides generous shade.",
+"category_name": "Eyes",
+"subcategory_name": "Eyeshadow",
+"price": 1499.00
     },
 
     {
-      "id": 27,
+      "id": 222,
       "image": "https://i.ibb.co.com/4wyhZjBb/Anastasia-Beverly-Hills-Brow-Wiz.webp",
       "name": "Anastasia Beverly Hills Brow Wiz",
       "description": "Ultra-slim retractable pencil for precise detailing and natural-looking brows.",
@@ -232,7 +252,7 @@
       "price": 2200.00
     },
     {
-      "id": 28,
+      "id": 223,
       "image": "https://i.ibb.co.com/LFJXg5D/Benefit-Precisely-My-Brow-Pencil.avif",
       "name": "Benefit Precisely, My Brow Pencil",
       "description": "Waterproof brow pencil with rich color payoff and 12-hour wear.",
@@ -241,7 +261,7 @@
       "price": 2100.00
     },
     {
-      "id": 29,
+      "id": 224,
       "image": "https://i.ibb.co.com/Kjqyt5SG/NYX-Micro-Brow-Pencil.webp",
       "name": "NYX Micro Brow Pencil",
       "description": "Affordable brow pencil with fine tip for natural definition.",
@@ -250,7 +270,7 @@
       "price": 650.00
     },
     {
-      "id": 30,
+      "id": 225,
       "image": "https://i.ibb.co.com/fdgNgZ7C/Maybelline-Tattoo-Studio-Brow-Gel.jpg",
       "name": "Maybelline TattooStudio Brow Gel",
       "description": "Long-lasting brow gel that stays put for up to 2 days.",
@@ -259,7 +279,7 @@
       "price": 899.00
     },
     {
-      "id": 31,
+      "id": 226,
       "image": "https://i.ibb.co.com/4Rg7X81W/Etude-House-Drawing-Eyebrow.webp",
       "name": "Etude House Drawing Eyebrow",
       "description": "K-beauty favorite eyebrow pencil with natural shades and smooth application.",
@@ -269,7 +289,7 @@
     },
 
     {
-      "id": 32,
+      "id": 227,
       "image": "https://i.ibb.co.com/LDt2bFd8/Maybelline-Hyper-Glossy-Liquid-Liner.jpg",
       "name": "Maybelline Hyper Glossy Liquid Liner",
       "description": "Glossy black liquid liner with precise brush tip for sharp lines.",
@@ -278,7 +298,7 @@
       "price": 499.00
     },
     {
-      "id": 33,
+      "id": 228,
       "image": "https://i.ibb.co.com/mFNzKYxV/L-Oreal-Paris-Super-Liner-Gel-Intenza.jpg",
       "name": "L’Oreal Paris Super Liner Gel Intenza",
       "description": "Gel liner with intense color and smooth application, lasts up to 36 hours.",
@@ -287,7 +307,7 @@
       "price": 899.00
     },
     {
-      "id": 34,
+      "id": 229,
       "image": "https://i.ibb.co.com/LX6rVvM2/Kat-Von-D-Tattoo-Liner.avif",
       "name": "Kat Von D Tattoo Liner",
       "description": "Award-winning waterproof liquid liner with ultra-precise brush tip.",
@@ -296,7 +316,7 @@
       "price": 1800.00
     },
     {
-      "id": 35,
+      "id": 230,
       "image": "https://i.ibb.co.com/93nDsTV3/NYX-Epic-Ink-Liner.avif",
       "name": "NYX Epic Ink Liner",
       "description": "Affordable waterproof liner with flexible brush tip for bold or subtle looks.",
@@ -304,14 +324,107 @@
       "subcategory_name": "Eyeliner",
       "price": 650.00
     },
+{
+"id": 231,
+"image": "https://i.ibb.co.com/qM3mVb1h/NIRVANA-Color-Eye-and-Face-Palette-SANJHBELA.webp",
+"name": "NIRVANA Color Eye and Face Palette SANJHBELA",
+"description": "The Nirvana Color Smokey Eye and Face Palette is a must-have for creating gorgeous smokey eye looks. It includes 9 highly pigmented shades in matte, shimmery, and glittery finishes, as well as contour, blush and highlighter. The versatile color range and easy-to-blend formula make this palette ideal for any makeup lover.",
+"category_name": "Eyes",
+"subcategory_name": "Eyeshadow",
+"price": 599.00
+},
     {
-      "id": 36,
-      "image": "https://i.ibb.co.com/8gVGHJSs/Huda-Beauty-Life-Liner-Duo-Pencil-Liquid.jpg",
-      "name": "Huda Beauty Life Liner Duo Pencil & Liquid",
-      "description": "Dual-ended liner with both liquid and pencil for versatile eye looks.",
-      "category_name": "Eyes",
-      "subcategory_name": "Eyeliner",
-      "price": 2000.00
+      "id": 117,
+      "image": "https://i.ibb.co.com/8gVGHJSs/Huda-Beauty-Life-Liner-Duo-Pencil-Liquid.jpghttps://i.ibb.co.com/gZXnrQDd/Maybelline-Instant-Age-Rewind-Concealer.png",
+      "name": "Maybelline Instant Age Rewind Concealer",
+      "description": "Popular concealer that erases dark circles and fine lines.",
+      "category_name": "Face",
+      "subcategory_name": "Concealer",
+      "price": 950.00
+    },
+
+    {
+      "id": 118,
+      "image": "https://i.ibb.co.com/HfPSvPNP/L-Oreal-True-Match-Concealer.jpg",
+      "name": "L’Oreal True Match Concealer",
+      "description": "Lightweight concealer with natural coverage and blendable formula.",
+      "category_name": "Face",
+      "subcategory_name": "Concealer",
+      "price": 799.00
+    },
+    {
+      "id": 119,
+      "image": "https://i.ibb.co.com/G4d0QTg4/NYX-HD-Wand-Conceale.png",
+      "name": "NYX HD Wand Concealer",
+      "description": "Affordable concealer with high-definition coverage.",
+      "category_name": "Face",
+      "subcategory_name": "Concealer",
+      "price": 550.00
+    },
+    {
+      "id": 120,
+      "image": "https://i.ibb.co.com/HpF68ZFL/MAC-Pro-Longwear-Concealer.jpg",
+      "name": "MAC Pro Longwear Concealer",
+      "description": "Professional concealer with long-lasting coverage.",
+      "category_name": "Face",
+      "subcategory_name": "Concealer",
+      "price": 1800.00
+    },
+
+    {
+      "id":121,
+      "image": "https://i.ibb.co.com/JFgTMmW6/Swiss-Beauty-Select-High-on-Blush-Pretty-Peach.avif",
+      "name": "Swiss Beauty Select High on Blush - Pretty Peach",
+      "description": "Natural matte blush that blends seamlessly for a healthy glow.",
+      "category_name": "Face",
+      "subcategory_name": "Blush",
+      "price": 649.00
+    },
+    {
+      "id": 122,
+      "image": "https://i.ibb.co.com/3yf26nD9/Milani-Baked-Blush.jpg",
+      "name": "Milani Baked Blush",
+      "description": "Highly pigmented blush with a radiant finish.",
+      "category_name": "Face",
+      "subcategory_name": "Blush",
+      "price": 1200.00
+    },
+    {
+      "id": 123,
+      "image": "https://i.ibb.co.com/zTzrYg3G/NARS-Orgasm-Blush.jpg",
+      "name": "NARS Orgasm Blush",
+      "description": "Iconic blush shade with a peachy-pink shimmer.",
+      "category_name": "Face",
+      "subcategory_name": "Blush",
+      "price": 3200.00
+    },
+
+    {
+      "id": 124,
+      "image": "https://i.ibb.co.com/wFTvCcc2/Becca-Shimmering-Skin-Perfector-Highlighter.jpg",
+      "name": "Becca Shimmering Skin Perfector Highlighter",
+      "description": "Pressed powder highlighter with luminous glow.",
+      "category_name": "Face",
+      "subcategory_name": "Highlighter",
+      "price": 3500.00
+    },
+    {
+      "id": 125,
+      "image": "https://i.ibb.co.com/xV66XgK/Fenty-Beauty-Killawatt-Highlighter.webp",
+      "name": "Fenty Beauty Killawatt Highlighter",
+      "description": "Cream-powder hybrid highlighter with intense shine.",
+      "category_name": "Face",
+      "subcategory_name": "Highlighter",
+      "price": 2800.00
+    },
+    {
+      "id": 126,
+      "image": "https://i.ibb.co.com/ccyK4rCg/Maybelline-Master-Chrome-Highlighter.webp",
+      "name": "Maybelline Master Chrome Highlighter",
+      "description": "Affordable metallic highlighter with bold glow.",
+      "category_name": "Face",
+      "subcategory_name": "Highlighter",
+      "price": 950.00
     }
     ]
 }

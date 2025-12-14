@@ -67,9 +67,48 @@ allProducts.forEach(product =>{
 loadAllMakeupProducts();
 
 
-// category based products
-const loadCategoryBasedProduct = (id)=>{
-    const url = `allProducts.json`
-fetch()
+// category based products eyes
+const categoryFiles = {
+  1: "eyesCategory.json",
+  2: "FaceCategory.json",
+  3: "lipsCategory.json",
+  4: "nailsCategory.json",
+  5: "toolsCategory.json"
+};
 
+const loadCategoryBasedProduct = (id) => {
+  const fileName = categoryFiles[id]; 
+  fetch(fileName)
+    .then(res => res.json())
+    .then(data => displayAllCategory(data.product));
+};
+
+
+
+const displayAllCategory = (eyesProducts)=>{
+const allEyesProduct= document.getElementById("allMakeup-products");
+allEyesProduct.innerHTML = "";
+
+
+eyesProducts.forEach(eyesProduct =>{
+    const eyesCard = document.createElement("div");
+    eyesCard.innerHTML = `<div class="card bg-base-100 w-96 shadow-lg flex flex-col flex-grow h-full min-h-[400px] justify-between transition-transform duration-300 ease-in-out hover:-translate-y-5 hover:shadow-lg">
+    <img class="h-[260px] pl-5 pr-5 pt-5" src="${eyesProduct.image}">
+  <div class="card-body mb-[10px]">
+    <h2 class="card-title">${eyesProduct.name}</h2>
+    <p class="text-gray-400">${eyesProduct.description}</p>
+    <div class="flex justify-between">
+    <button class="btn rounded-[10px]">৳${eyesProduct.price}</button>
+
+<button class="btn btn-secondary bg-[#E2725B] group">
+  <span class="group-hover:hidden">Add to Cart</span>
+  <span class="hidden group-hover:block w-[74px]"><i class="fa-solid fa-cart-shopping"></i></span>
+</button>
+    </div>
+  </div>
+</div>`;
+
+    allEyesProduct.appendChild(eyesCard);
+})
 }
+

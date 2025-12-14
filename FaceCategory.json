@@ -1,62 +1,175 @@
 {
 "status": true,
-"message": "successfully fetched Face product data filtered by category",
-"faceCategory": [
+"message": "successfully fetched",
+"product": [
 {
-    "id": 1,
+    "id": 111,
     "image": "https://i.ibb.co.com/bM0Y4215/Nirvana-Color-Face-Perfect-Liquid-Foundation-Light-Honey-F04.webp",
     "name": "Nirvana Color Face Perfect Liquid Foundation - Light Honey F04",
     "description": "Nirvana Color features four new full coverage yet buildable foundations that give a flawless, long-lasting finish, cover up blemishes, and conceal imperfections and dark circles. These foundations are made to complement Bangladeshi skin tones.",
     "category_name": "Face",
+    "subcategory_name": "Foundation",
     "price": 349.00
   },
   {
-    "id": 2,
+    "id": 112,
     "image": "https://i.ibb.co.com/pB4tcLrY/Farmasi-Soft-Focus-BB-Powder-02-Medium.jpg",
     "name": "Farmasi Soft Focus BB Powder 02 Medium",
     "description": "BB All-in One compact powder is a light and soft powder which gives the skin soft look by naturally covering imperfections. Apply over a BB cream for buildable coverage or alone for a matte finish.",
     "category_name": "Face",
+    "subcategory_name": "Foundation",
     "price": 1200.00
   },
 {
-    "id": 3,
+    "id": 113,
     "image": "https://i.ibb.co.com/6cTMVk2h/L-A-Girl-Pro-BB-Cream-GBB942-Light.jpg",
     "name": "L.A. Girl Pro BB Cream GBB942 Light",
     "description": "HD PRO BB Cream is formulated without parabens and made fragrance-free to pamper sensitive skin and lavishly nourish skin with added Vitamin B3, C and E. The silky formula covers a wide range of skin tones with eight diverse shades. This is your all-in-one skin beautifier that primes, moisturizes and enhances skin tone.",
     "category_name": "Face",
+    "subcategory_name": "Foundation",
     "price": 550.00
   },
   {
-    "id": 4,
+    "id": 114,
     "image": "https://i.ibb.co.com/b5PQ3gjZ/Benefit-Hoola-Matte-Bronzer-Hoola-Light.avif",
     "name": "Benefit Hoola Matte Bronzer Hoola Light",
     "description": "Benefit’s award-winning Hoola bronzer is now available in 4 SUNsational shades. All shades feature the same soft, blendable formula and matte finish that made original Hoola a cult-favorite. The entire Hoola bronzer collection ranges from light to deep so you can sweep on a natural-looking bronze. Comes complete with a built-in mirror and powder brush for a sunless & seamless application. ",
     "category_name": "Face",
+    "subcategory_name": "Foundation",
     "price": 4200.00
   },
   {
-    "id": 5,
+    "id": 115,
     "image": "https://i.ibb.co.com/TMZr8zLk/Wazih-Organic-Lavender-Essential-Oil.jpg",
     "name": "Wazih Organic Lavender Essential Oil",
     "description": "Lavender Essential Oil Lavender essential oil is a type of essential oil. Lavender is a very popular and popular flower name from which this essential oil is obtained. Its soft fragrance takes away everyone's mind. There is no pair of lavender oil for soft fragrance, moisturizing skin and keeping hair beautiful.",
     "category_name": "Face",
+    "subcategory_name": "Concealer",
     "price": 248.00
   },
 {
-"id": 6,
+"id": 116,
 "image": "https://i.ibb.co.com/fYy5RvKk/Garnier-Skin-Active-Micellar-Clear-Water.jpg",
 "name": "Garnier Skin Active Micellar Clear Water",
 "description": "This cleanser is surprisingly powerful yet gentle to skin. It is specially formulated to effectively cleanse, remove makeup, and refresh skin. Like a magnet, micelles capture and lift away dirt, oil and makeup without harsh rubbing, leaving skin perfectly clean, and refreshed without over-drying.",
 "category_name": "Face",
+"subcategory_name": "Concealer",
 "price": 800
 },
+    {
+      "id": 117,
+      "image": "https://i.ibb.co.com/8gVGHJSs/Huda-Beauty-Life-Liner-Duo-Pencil-Liquid.jpghttps://i.ibb.co.com/gZXnrQDd/Maybelline-Instant-Age-Rewind-Concealer.png",
+      "name": "Maybelline Instant Age Rewind Concealer",
+      "description": "Popular concealer that erases dark circles and fine lines.",
+      "category_name": "Face",
+      "subcategory_name": "Concealer",
+      "price": 950.00
+    },
+
+    {
+      "id": 118,
+      "image": "https://i.ibb.co.com/HfPSvPNP/L-Oreal-True-Match-Concealer.jpg",
+      "name": "L’Oreal True Match Concealer",
+      "description": "Lightweight concealer with natural coverage and blendable formula.",
+      "category_name": "Face",
+      "subcategory_name": "Concealer",
+      "price": 799.00
+    },
+    {
+      "id": 119,
+      "image": "https://i.ibb.co.com/G4d0QTg4/NYX-HD-Wand-Conceale.png",
+      "name": "NYX HD Wand Concealer",
+      "description": "Affordable concealer with high-definition coverage.",
+      "category_name": "Face",
+      "subcategory_name": "Concealer",
+      "price": 550.00
+    },
+    {
+      "id": 120,
+      "image": "https://i.ibb.co.com/HpF68ZFL/MAC-Pro-Longwear-Concealer.jpg",
+      "name": "MAC Pro Longwear Concealer",
+      "description": "Professional concealer with long-lasting coverage.",
+      "category_name": "Face",
+      "subcategory_name": "Concealer",
+      "price": 1800.00
+    },
+
+    {
+      "id": 121,
+      "image": "https://i.ibb.co.com/JFgTMmW6/Swiss-Beauty-Select-High-on-Blush-Pretty-Peach.avif",
+      "name": "Swiss Beauty Select High on Blush - Pretty Peach",
+      "description": "Natural matte blush that blends seamlessly for a healthy glow.",
+      "category_name": "Face",
+      "subcategory_name": "Blush",
+      "price": 649.00
+    },
+    {
+      "id": 122,
+      "image": "https://i.ibb.co.com/3yf26nD9/Milani-Baked-Blush.jpg",
+      "name": "Milani Baked Blush",
+      "description": "Highly pigmented blush with a radiant finish.",
+      "category_name": "Face",
+      "subcategory_name": "Blush",
+      "price": 1200.00
+    },
+    {
+      "id": 123,
+      "image": "https://i.ibb.co.com/zTzrYg3G/NARS-Orgasm-Blush.jpg",
+      "name": "NARS Orgasm Blush",
+      "description": "Iconic blush shade with a peachy-pink shimmer.",
+      "category_name": "Face",
+      "subcategory_name": "Blush",
+      "price": 3200.00
+    },
+
+    {
+      "id": 124,
+      "image": "https://i.ibb.co.com/wFTvCcc2/Becca-Shimmering-Skin-Perfector-Highlighter.jpg",
+      "name": "Becca Shimmering Skin Perfector Highlighter",
+      "description": "Pressed powder highlighter with luminous glow.",
+      "category_name": "Face",
+      "subcategory_name": "Highlighter",
+      "price": 3500.00
+    },
+    {
+      "id": 125,
+      "image": "https://i.ibb.co.com/xV66XgK/Fenty-Beauty-Killawatt-Highlighter.webp",
+      "name": "Fenty Beauty Killawatt Highlighter",
+      "description": "Cream-powder hybrid highlighter with intense shine.",
+      "category_name": "Face",
+      "subcategory_name": "Highlighter",
+      "price": 2800.00
+    },
+    {
+      "id": 126,
+      "image": "https://i.ibb.co.com/ccyK4rCg/Maybelline-Master-Chrome-Highlighter.webp",
+      "name": "Maybelline Master Chrome Highlighter",
+      "description": "Affordable metallic highlighter with bold glow.",
+      "category_name": "Face",
+      "subcategory_name": "Highlighter",
+      "price": 950.00
+    },
 {
-"id": 7,
+"id":127 ,
 "image": "https://i.ibb.co.com/21nf2dC1/Swiss-Beauty-Select-High-on-Blush-01-Pretty-Peach.webp",
 "name": "Swiss Beauty Select High on Blush - 01 Pretty Peach",
 "description": "The Swiss Beauty Select High on Blush has a natural matte finish that emulates the texture and appearance of your skin.",
 "category_name": "Face",
+"subcategory_name": "Blush",
 "price": 649.00
 }
 ]
 }
+
+
+
+
+
+
+
+
+
+
+
+
+

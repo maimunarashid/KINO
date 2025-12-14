@@ -1,0 +1,30 @@
+{
+  "status": true,
+  "message": "successfully fetched",
+  "product": [
+    {
+"id": 11,
+"image": "https://i.ibb.co.com/V0zYWbq0/Nirvana-Color-Matte-Bullet-Lipstick-Bride-Red-B06.jpg",
+"name": "Nirvana Color Matte Bullet Lipstick - Bride Red B06",
+"description": "Nirvana Color features six new highly pigmented, creamy matte lipsticks. The rich formula applies to the lips very smoothly and does not make your lips heavy. These colors are perfect as your everyday shade and give your persona an attractive touch.",
+"category_name": "Lips Care",
+"price": 149.00
+},
+{
+"id": 12,
+"image": "https://i.ibb.co.com/tp06KyB5/Swiss-Beauty-Pure-Matte-Lipstick-Raspberry-207.webp",
+"name": "Swiss Beauty Pure Matte Lipstick-Raspberry - 207",
+"description": "Whether you're rocking a bold red or a subtle nude, Swiss Beauty Pure Matte Lipstick delivers intense pigmentation, glides effortlessly delivering a soft matte finish. Available in 30 captivating shades, from bold and vibrant to subtle and neutral, there's a perfect hue for every mood and occasion.",
+"category_name": "Lips Care",
+"price": 330.00
+},
+{
+"id": 13,
+"image": "https://i.ibb.co.com/gb8htZX3/Swiss-Beauty-MATTE-CAT-LIP-CRAYON-Shade-01.webp",
+"name": "Swiss Beauty MATTE CAT LIP CRAYON - Shade 01",
+"description": "It Stays: Non-transfer and water-resistant formula ensures that the color stays put all day long. This Lip Crayon has a Retractable design eliminates the need for sharpening, making it easy to use and mess-free. The Lightweight formula of our Matte Lip Crayon lasts up to 8 hours and is comfortable on the lips.",
+"category_name": "Lips Care",
+"price": 2000
+}
+  ]
+}
