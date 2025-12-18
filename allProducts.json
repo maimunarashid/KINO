@@ -1,7 +1,7 @@
 {
 "status": true,
 "message": "successfully fetched",
-"allMakeupProducts": [
+"product": [
       {
       "id": 15,
       "image": "https://i.ibb.co.com/xV66XgK/Fenty-Beauty-Killawatt-Highlighter.webp",

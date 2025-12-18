@@ -2,8 +2,12 @@
   "status": true,
   "message": "successfully fetched categories data",
   "categories": [
-    {
+        {
       "id": 1,
+      "category_name": "All"
+    },
+    {
+      "id": 2,
       "category_name": "Eyes",
       "subcategories": [
         { "id": 101, "name": "Eyelash" },
@@ -13,7 +17,7 @@
       ]
     },
     {
-      "id": 2,
+      "id": 3,
       "category_name": "Face",
       "subcategories": [
         { "id": 201, "name": "Foundation" },
@@ -23,7 +27,7 @@
       ]
     },
     {
-      "id": 3,
+      "id": 4,
       "category_name": "Lips Care",
       "subcategories": [
         { "id": 301, "name": "Lipstick" },
@@ -33,7 +37,7 @@
       ]
     },
     {
-      "id": 4,
+      "id": 5,
       "category_name": "Nails",
       "subcategories": [
         { "id": 401, "name": "Nail Polish" },
@@ -42,7 +46,7 @@
       ]
     },
     {
-      "id": 5,
+      "id": 6,
       "category_name": "Tools & Brushes",
       "subcategories": [
         { "id": 501, "name": "Makeup Brushes" },
