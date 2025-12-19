@@ -18,7 +18,7 @@ productCategories.innerHTML = "";
 
 categories.forEach(category =>{
     const categoryContent = document.createElement("div");
-    categoryContent.innerHTML = `<button id="category-based-product-${category.id}" onclick="loadCategoryBasedProduct(${category.id})" class="bg-purple-100 hover:bg-pink-900 hover:text-white pt-2 pb-4  mb-1 ml-2  rounded-lg w-[150px] border border-gray-300">${category.category_name}</button>`;
+    categoryContent.innerHTML = `<button id="category-based-product-${category.id}" onclick="loadCategoryBasedProduct(${category.id})" class="bg-purple-100 hover:bg-pink-900 hover:text-white pt-2 pb-4  mb-1 ml-2  rounded-lg w-[150px] border border-gray-300 hover:cursor-pointer hover:underline">${category.category_name}</button>`;
 
     productCategories.appendChild(categoryContent);
 })
@@ -113,6 +113,7 @@ eyesProducts.forEach(eyesProduct =>{
 
 
 // add to cart item count update
+// deligation event listener
 let items = [];
 let itemCount = document.getElementById("item-count");
 
