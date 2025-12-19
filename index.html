@@ -10,7 +10,7 @@
     <!-- font awesome cdn -->
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<body>
+<body class="relative">
     <!-- navbar -->
      <div
       id="mainNavbar"
@@ -96,13 +96,19 @@
 
     <!-- banner section -->
      <div class="relative"><img src="assetss/landing.webp" alt="banner" class="w-full h-40 object-cover">
-    <div class="absolute flex inset-1 items-center justify-center"> <h2 class="text-pink-900 text-3xl font-bold">Makeup Collection</h2> </div></div>
+    <div class="absolute flex inset-1 items-center justify-center"> <h2 class="text-pink-700 text-3xl font-bold">Makeup Collection</h2> </div></div>
     <!-- home page for makeup -->
      <div id="product-categories" class="flex flex-row pt-10 pb-8 bg-gray-100 justify-center"></div>
     <div id="allMakeup-products" class="grid grid-cols-4 p-10 bg-purple-100 gap-6"></div>
   
-    
-
+    <!-- add to cart -->
+<div class="flex flex-col absolute top-70 right-0 fixed ">
+  <div class="bg-sky-900 p-2 flex flex-col items-center cursor-pointer rounded-tl-lg">
+    <i class="fa-solid fa-bag-shopping text-white text-xl"></i>
+    <p class="bg-sky-900 text-white font-bold"><span id="item-count">0</span> ITEMS</p>
+  </div>
+  <p class="bg-pink-700 text-white font-bold pb-1 text-center rounded-bl-lg"><span class="text-[24px] font-bold">৳</span> <span id="">0</span></p>
+</div>
      <!-- footer -->
       <footer class="footer sm:footer-horizontal bg-base-300 text-base-content p-10">
   <nav>

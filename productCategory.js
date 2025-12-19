@@ -51,7 +51,7 @@ allProducts.forEach(product =>{
     <div class="flex justify-between">
     <button class="btn rounded-[10px]">৳${product.price}</button>
 
-<button class="btn btn-secondary bg-pink-900 border border-gray-100 group">
+<button class="btn btn-secondary bg-pink-900 border border-gray-100 group add-to-cart" data-id="${product.id}">
   <span class="group-hover:hidden">Add to Cart</span>
   <span class="hidden group-hover:block w-[74px]"><i class="fa-solid fa-cart-shopping"></i></span>
 </button>
@@ -91,7 +91,7 @@ allEyesProduct.innerHTML = "";
 
 eyesProducts.forEach(eyesProduct =>{
     const eyesCard = document.createElement("div");
-    eyesCard.innerHTML = `<div class="mb-6 card bg-base-100 w-85 shadow-lg flex flex-col flex-grow h-full min-h-[350px] justify-between transition-transform duration-300 ease-in-out hover:-translate-y-5 hover:shadow-lg">
+    eyesCard.innerHTML = `<div class="mb-6 card bg-base-100 w-85 shadow-lg flex flex-col flex-grow h-full min-h-[350px] justify-between transition-transform duration-300 ease-in-out hover:-translate-y-5 hover:shadow-lg" >
     <img class="transition-transform duration-500 ease-in-out hover:scale-103 h-[250px] pl-5 pr-5 pt-5" src="${eyesProduct.image}">
   <div class="card-body mb-[5px]">
     <h2 class="card-title">${eyesProduct.name}</h2>
@@ -99,7 +99,7 @@ eyesProducts.forEach(eyesProduct =>{
     <div class="flex justify-between">
     <button class="btn rounded-[10px]">৳${eyesProduct.price}</button>
 
-<button class="btn btn-secondary bg-pink-900 border border-gray-100 group">
+<button class="btn btn-secondary bg-pink-900 border border-gray-100 group add-to-cart" data-id="${eyesProduct.id}">
   <span class="group-hover:hidden">Add to Cart</span>
   <span class="hidden group-hover:block w-[74px]"><i class="fa-solid fa-cart-shopping"></i></span>
 </button>
@@ -110,4 +110,22 @@ eyesProducts.forEach(eyesProduct =>{
     allEyesProduct.appendChild(eyesCard);
 })
 }
+
+
+// add to cart item count update
+let items = [];
+let itemCount = document.getElementById("item-count");
+
+document.getElementById("allMakeup-products").addEventListener("click", (e) => {
+  const btn = e.target.closest(".add-to-cart"); 
+  if (btn) 
+    { 
+      const productId = btn.getAttribute("data-id");
+    if (!items.includes(productId))
+       { 
+        items.push(productId); 
+      } 
+     itemCount.innerText = items.length;}
+});
+
 
