@@ -51,7 +51,7 @@ allProducts.forEach(product =>{
     <div class="flex justify-between">
     <button class="btn rounded-[10px]">৳${product.price}</button>
 
-<button class="btn btn-secondary bg-pink-900 border border-gray-100 group add-to-cart" data-id="${product.id}">
+<button class="btn btn-secondary bg-pink-900 border border-gray-100 group add-to-cart" data-id="${product.id}" data-price="${product.price}" data-name="${product.name}" data-stock="${product.stock}" data-image="${product.image}">
   <span class="group-hover:hidden">Add to Cart</span>
   <span class="hidden group-hover:block w-[74px]"><i class="fa-solid fa-cart-shopping"></i></span>
 </button>
@@ -99,7 +99,7 @@ eyesProducts.forEach(eyesProduct =>{
     <div class="flex justify-between">
     <button class="btn rounded-[10px]">৳${eyesProduct.price}</button>
 
-<button class="btn btn-secondary bg-pink-900 border border-gray-100 group add-to-cart" data-id="${eyesProduct.id}">
+<button class="btn btn-secondary bg-pink-900 border border-gray-100 group add-to-cart" data-id="${eyesProduct.id}" data-price="${eyesProduct.price}" data-name="${eyesProduct.name}" data-stock="${eyesProduct.stock}" data-image="${eyesProduct.image}" >
   <span class="group-hover:hidden">Add to Cart</span>
   <span class="hidden group-hover:block w-[74px]"><i class="fa-solid fa-cart-shopping"></i></span>
 </button>
@@ -112,21 +112,127 @@ eyesProducts.forEach(eyesProduct =>{
 }
 
 
-// add to cart item count update
-// deligation event listener
-let items = [];
-let itemCount = document.getElementById("item-count");
+// cart functionality
+// ---------------- CART LOGIC ----------------
+let cart = [];
 
+// Event delegation: handle Add to Cart clicks
 document.getElementById("allMakeup-products").addEventListener("click", (e) => {
-  const btn = e.target.closest(".add-to-cart"); 
-  if (btn) 
-    { 
-      const productId = btn.getAttribute("data-id");
-    if (!items.includes(productId))
-       { 
-        items.push(productId); 
-      } 
-     itemCount.innerText = items.length;}
+  const btn = e.target.closest(".add-to-cart");
+  if (btn) {
+    const productId = btn.getAttribute("data-id");
+    const productPrice = parseFloat(btn.getAttribute("data-price"));
+    const productName = btn.getAttribute("data-name");
+    const productImage = btn.getAttribute("data-image");
+    const productStock = parseInt(btn.getAttribute("data-stock"));
+
+    let existing = cart.find(p => p.id === productId);
+
+    if (!existing) {
+      cart.push({
+        id: productId,
+        name: productName,
+        price: productPrice,
+        image: productImage,
+        quantity: 1,
+        stock: productStock
+      });
+    } else {
+      // if already in cart, just increase quantity if stock allows
+      if (existing.quantity < existing.stock) {
+        existing.quantity++;
+      } else {
+        alert("Max quantity per order limit reached!");
+      }
+    }
+
+    updateCartSummary();
+    renderCartDetail();
+  }
 });
+
+// Update small cart section (count + total)
+function updateCartSummary() {
+  document.getElementById("item-count").innerText = cart.length;
+  const total = cart.reduce((sum, p) => sum + (p.price * p.quantity), 0);
+  document.getElementById("total-amount").innerText = total;
+}
+
+
+
+// Toggle cart detail when clicking the cart section
+document.getElementById("cart-button").addEventListener("click", () => {
+  document.getElementById("cart-detail").classList.toggle("hidden");
+  renderCartDetail();
+});
+
+document.addEventListener("click", (e) => {
+  const detail = document.getElementById("cart-detail");
+  const cartBtn = document.getElementById("cart-button");
+  if (!detail.contains(e.target) && !cartBtn.contains(e.target)) {
+    detail.classList.add("hidden");
+  }
+});
+
+
+// Render cart detail with + / – buttons
+function renderCartDetail() {
+  const cartItems = document.getElementById("cart-items");
+  cartItems.innerHTML = "";
+
+  cart.forEach(product => {
+    const itemDiv = document.createElement("div");
+    itemDiv.classList.add("border", "border-gray-300", "p-2", "rounded", "bg-gray-100");
+
+    itemDiv.innerHTML = `
+      <div class="flex gap-3 items-center">
+        <img src="${product.image}" class="w-16 h-16 object-cover rounded" />
+        <div class="flex-grow">
+          <p class="font-semibold">${product.name}</p>
+          <p>৳${product.price} × ${product.quantity} = ৳${product.price * product.quantity}</p>
+          <div class="flex gap-2 mt-1">
+            <button class="px-2 bg-pink-700 text-white rounded decrease" data-id="${product.id}">–</button>
+            <span>${product.quantity}</span>
+            <button class="px-2 bg-pink-700 text-white rounded increase" data-id="${product.id}">+</button>
+          </div>
+        </div>
+      </div>
+    `;
+
+    cartItems.appendChild(itemDiv);
+  });
+
+  // Add listeners for + / –
+  document.querySelectorAll(".increase").forEach(btn => {
+    btn.addEventListener("click", () => {
+      const id = btn.getAttribute("data-id");
+      const product = cart.find(p => p.id === id);
+      if (product.quantity < product.stock) {
+        product.quantity++;
+      } else {
+        alert("Max quantity per order limit reached!");
+      }
+      updateCartSummary();
+      renderCartDetail();
+    });
+  });
+
+  document.querySelectorAll(".decrease").forEach(btn => {
+    btn.addEventListener("click", () => {
+      const id = btn.getAttribute("data-id");
+      const product = cart.find(p => p.id === id);
+      if (product.quantity > 1) {
+        product.quantity--;
+      }
+      updateCartSummary();
+      renderCartDetail();
+    });
+  });
+
+  // Update total in detail panel
+  const total = cart.reduce((sum, p) => sum + (p.price * p.quantity), 0);
+  document.getElementById("cart-total").innerText = total;
+}
+
 
 

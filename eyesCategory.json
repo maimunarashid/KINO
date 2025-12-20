@@ -9,7 +9,8 @@
 "description": "9-Colour Eyeshadow Palette: Swiss Beauty Ultimate Eyeshadow palette consists of highly pigmented shades in matte, shimmer, and metallic finishes for creating endless eye looks",
 "category_name": "Eyes",
 "subcategory_name": "Eyeshadow",
-"price": 499.00
+"price": 499.00,
+"stock": 1
 },
     {
       "id":212,
@@ -18,7 +19,8 @@
       "description": "Dual-ended liner with both liquid and pencil for versatile eye looks.",
       "category_name": "Eyes",
       "subcategory_name": "Eyeliner",
-      "price": 2000.00
+      "price": 2000.00,
+      "stock": 2
     },
         {
       "id": 213,
@@ -27,7 +29,8 @@
       "description": "Dual-ended mascara for both volume and curl, perfect for bold eye looks.",
       "category_name": "Eyes",
       "subcategory_name": "Eyelash",
-      "price": 1800.00
+      "price": 1800.00,
+      "stock": 3
     },
     {
 "id": 214,
@@ -36,7 +39,8 @@
 "description": "Known as the ‘Flame of the Forest’, this tree bursts into a vibrant display of red flowers every summer. Perfect for beautifying avenues and gardens.",
 "category_name": "Eyes",
 "subcategory_name": "Eyeshadow",
-"price": 1599.00
+"price": 1599.00,
+"stock": 2
     },
     {
 "id": 215,
@@ -45,7 +49,8 @@
 "description": "A fragrant flowering tree that adorns gardens with its delicate white blossoms. Widely cherished in traditional rituals and perfumery.",
 "category_name": "Eyes",
 "subcategory_name": "Eyeshadow",
-"price": 499.00
+"price": 499.00,
+"stock": 1
     },
     {
 "id": 216,
@@ -54,7 +59,8 @@
 "description": "Our PhotoReady™ Eye Primer + Brightener reduces the appearance of lines and creases under eyes and can also be used anywhere on the face as a brightening pick me up",
 "category_name": "Eyes",
 "subcategory_name": "Eyeliner",
-"price": 1300.00
+"price": 1300.00,
+"stock": 2
     },
         {
       "id": 217,
@@ -63,7 +69,8 @@
       "description": "Full fan effect mascara with layers of lashes revealed for a dramatic look.",
       "category_name": "Eyes",
       "subcategory_name": "Eyelash",
-      "price": 750.00
+      "price": 750.00,
+      "stock": 3
     },
     {
       "id": 218,
@@ -72,7 +79,8 @@
       "description": "Builds lashes up to 5x their natural thickness for bold volume.",
       "category_name": "Eyes",
       "subcategory_name": "Eyelash",
-      "price": 699.00
+      "price": 699.00,
+      "stock": 2
     },
     {
       "id": 219,
@@ -81,7 +89,8 @@
       "description": "Lengthens, curls, volumizes, lifts, and separates lashes for a dramatic finish.",
       "category_name": "Eyes",
       "subcategory_name": "Eyelash",
-      "price": 1200.00
+      "price": 1200.00,
+      "stock": 1
     },
     {
       "id": 220,
@@ -90,7 +99,8 @@
       "description": "Affordable mascara with a false lash effect and long-lasting wear.",
       "category_name": "Eyes",
       "subcategory_name": "Eyelash",
-      "price": 450.00
+      "price": 450.00,
+      "stock": 2
     },
     {
 "id": 221,
@@ -99,7 +109,8 @@
 "description": "A large tropical tree that bears the world’s biggest fruit, the jackfruit. Its sweet and aromatic flesh is both nutritious and filling, and the tree itself provides generous shade.",
 "category_name": "Eyes",
 "subcategory_name": "Eyeshadow",
-"price": 1499.00
+"price": 1499.00,
+"stock": 3
     },
 
     {
@@ -109,7 +120,8 @@
       "description": "Ultra-slim retractable pencil for precise detailing and natural-looking brows.",
       "category_name": "Eyes",
       "subcategory_name": "Eyebrow",
-      "price": 2200.00
+      "price": 2200.00,
+      "stock": 1
     },
     {
       "id": 223,
@@ -118,7 +130,8 @@
       "description": "Waterproof brow pencil with rich color payoff and 12-hour wear.",
       "category_name": "Eyes",
       "subcategory_name": "Eyebrow",
-      "price": 2100.00
+      "price": 2100.00,
+      "stock": 2
     },
     {
       "id": 224,
@@ -127,7 +140,8 @@
       "description": "Affordable brow pencil with fine tip for natural definition.",
       "category_name": "Eyes",
       "subcategory_name": "Eyebrow",
-      "price": 650.00
+      "price": 650.00,
+      "stock": 3
     },
     {
       "id": 225,
@@ -136,7 +150,8 @@
       "description": "Long-lasting brow gel that stays put for up to 2 days.",
       "category_name": "Eyes",
       "subcategory_name": "Eyebrow",
-      "price": 899.00
+      "price": 899.00,
+      "stock": 1
     },
     {
       "id": 226,
@@ -145,7 +160,8 @@
       "description": "K-beauty favorite eyebrow pencil with natural shades and smooth application.",
       "category_name": "Eyes",
       "subcategory_name": "Eyebrow",
-      "price": 400.00
+      "price": 400.00,
+      "stock": 2
     },
 
     {
@@ -155,7 +171,8 @@
       "description": "Glossy black liquid liner with precise brush tip for sharp lines.",
       "category_name": "Eyes",
       "subcategory_name": "Eyeliner",
-      "price": 499.00
+      "price": 499.00,
+      "stock": 3
     },
     {
       "id": 228,
@@ -164,7 +181,8 @@
       "description": "Gel liner with intense color and smooth application, lasts up to 36 hours.",
       "category_name": "Eyes",
       "subcategory_name": "Eyeliner",
-      "price": 899.00
+      "price": 899.00,
+      "stock": 1
     },
     {
       "id": 229,
@@ -173,7 +191,8 @@
       "description": "Award-winning waterproof liquid liner with ultra-precise brush tip.",
       "category_name": "Eyes",
       "subcategory_name": "Eyeliner",
-      "price": 1800.00
+      "price": 1800.00,
+      "stock": 2
     },
     {
       "id": 230,
@@ -182,7 +201,8 @@
       "description": "Affordable waterproof liner with flexible brush tip for bold or subtle looks.",
       "category_name": "Eyes",
       "subcategory_name": "Eyeliner",
-      "price": 650.00
+      "price": 650.00,
+      "stock": 3
     },
     {
 "id": 231,
@@ -191,7 +211,8 @@
 "description": "The Nirvana Color Smokey Eye and Face Palette is a must-have for creating gorgeous smokey eye looks. It includes 9 highly pigmented shades in matte, shimmery, and glittery finishes, as well as contour, blush and highlighter. The versatile color range and easy-to-blend formula make this palette ideal for any makeup lover.",
 "category_name": "Eyes",
 "subcategory_name": "Eyeshadow",
-"price": 599.00
+"price": 599.00,
+"stock": 1
     }
   ]
 }

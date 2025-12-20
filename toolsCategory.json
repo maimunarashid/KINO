@@ -8,7 +8,8 @@
 "name": "Fix+ Beauty Makeup Brush Set",
 "description": "Beauty Fix+ Professional Makeup Brush Kit is a 13-piece set designed to elevate your makeup application to a professional level. This comprehensive kit includes a versatile array of brushes, carefully crafted to cater to all your makeup needs.",
 "category_name": "Tools & Brushes",
-"price": 475.00
+"price": 475.00,
+"stock": 1
 },
 {
 "id": 18,
@@ -16,7 +17,8 @@
 "name": "Makeup Pouches",
 "description": "Large Capacity: A makeup storage bag with a large capacity can be a great highlight. This will allow customers to store and organize all their makeup and toiletries in one place.",
 "category_name": "Tools & Brushes",
-"price": 184.00
+"price": 184.00,
+"stock": 2
 }
   ]
 }

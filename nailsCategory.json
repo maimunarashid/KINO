@@ -8,7 +8,8 @@
 "name": "Nirvana Color Nail Enamel - Cherry Picked-14",
 "description": "Nirvana Color features a bunch of colorful nail enamels, starting from neutrals, pastels to brights, and shimmers. Paint your nails the way you fancy with the opaque shades and decorate them with the glittery polish.",
 "category_name": "Nails",
-"price": 204.00
+"price": 204.00,
+"stock": 1
 },
 {
 "id": 15,
@@ -16,7 +17,8 @@
 "name": "Nirvana Color Nail Enamel - Olive You - 34",
 "description": "Nirvana Color features a bunch of colorful nail enamels, starting from neutrals, pastels to brights, and shimmers. Paint your nails the way you fancy with the opaque shades and decorate them with the glittery polishes. Vibran",
 "category_name": "Nails",
-"price": 208.00
+"price": 208.00,
+"stock": 2
 },
 {
 "id": 16,
@@ -24,7 +26,8 @@
 "name": "Nirvana Color Nail Enamel - Dazzling - 41",
 "description": "Nirvana Color features a bunch of colorful nail enamels, starting from neutrals, pastels to brights, and shimmers. Paint your nails the way you fancy with the opaque shades and decorate them with the glittery polish.",
 "category_name": "Nails",
-"price": 187.00
+"price": 187.00,
+"stock": 3
 }
   ]
 }

@@ -105,16 +105,22 @@
   
 
 
-
     <!-- add to cart -->
-<div class="flex flex-col absolute top-70 right-0 fixed ">
+<div id="cart-button" class="flex flex-col absolute top-70 right-0 fixed ">
   <div class="bg-sky-900 p-2 flex flex-col items-center cursor-pointer rounded-tl-lg">
     <i class="fa-solid fa-bag-shopping text-white text-xl"></i>
     <p class="bg-sky-900 text-white font-bold"><span id="item-count">0</span> ITEMS</p>
   </div>
-  <p class="bg-pink-700 text-white font-bold pb-1 text-center rounded-bl-lg"><span class="text-[24px] font-bold">৳</span> <span id="">0</span></p>
+  <p class="bg-pink-700 text-white font-bold pb-1 text-center rounded-bl-lg"><span class="text-[24px] font-bold">৳</span> <span id="total-amount">0</span></p>
 </div>
 
+<!-- ---------------- CART DETAIL PANEL ---------------- -->
+<!-- Create a hidden panel in HTML (add this inside <body>): -->
+ <div id="cart-detail" class="fixed top-20 right-0 w-[350px] bg-red-100 shadow-lg rounded-tl-lg p-4 hidden z-50 h-[80vh] overflow-y-auto">
+ <h2 class="text-xl font-bold text-pink-700 mb-4"><i class="fa-solid fa-bag-shopping"></i> Your Cart</h2>
+  <div id="cart-items" class="space-y-4"></div>
+ <p class="text-right font-bold text-pink-700 mt-4">Total: ৳<span id="cart-total">0</span></p>
+ </div>
 
 
      <!-- footer -->
