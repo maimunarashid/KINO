@@ -8,7 +8,7 @@
     },
     {
       "id": 2,
-      "category_name": "Eyes",
+      "category_name": "Bandarban",
       "subcategories": [
         { "id": 101, "name": "Eyelash" },
         { "id": 102, "name": "Eyebrow" },
@@ -18,7 +18,7 @@
     },
     {
       "id": 3,
-      "category_name": "Face",
+      "category_name": "Rangamati",
       "subcategories": [
         { "id": 201, "name": "Foundation" },
         { "id": 202, "name": "Concealer" },
@@ -28,7 +28,7 @@
     },
     {
       "id": 4,
-      "category_name": "Lips Care",
+      "category_name": "Khagrachori",
       "subcategories": [
         { "id": 301, "name": "Lipstick" },
         { "id": 302, "name": "Lip Gloss" },
@@ -38,21 +38,11 @@
     },
     {
       "id": 5,
-      "category_name": "Nails",
+      "category_name": "Cox's Bazar",
       "subcategories": [
         { "id": 401, "name": "Nail Polish" },
         { "id": 402, "name": "Nail Art" },
         { "id": 403, "name": "Nail Care" }
-      ]
-    },
-    {
-      "id": 6,
-      "category_name": "Tools & Brushes",
-      "subcategories": [
-        { "id": 501, "name": "Makeup Brushes" },
-        { "id": 502, "name": "Sponges" },
-        { "id": 503, "name": "Tweezers" },
-        { "id": 504, "name": "Eyelash Curler" }
       ]
     }
   ]

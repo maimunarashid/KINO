@@ -67,12 +67,11 @@ loadAllMakeupProducts();
 
 // category based products eyes
 const categoryFiles = {
-  1: "allProducts.json",
-  2: "eyesCategory.json",
-  3: "FaceCategory.json",
-  4: "lipsCategory.json",
-  5: "nailsCategory.json",
-  6: "toolsCategory.json"
+  1: "alldistrict.json",
+  2: "bandarban.json",
+  3: "rangamati.json",
+  4: "khagrachori.json",
+  5: "coxsbazar.json",
 };
 
 const loadCategoryBasedProduct = (id) => {
